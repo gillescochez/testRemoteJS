@@ -7,11 +7,13 @@ The cascade of script tags make the test code very ugly so I wrote this little h
 ## in HTML document
 ```html
 <script src="qunit.js"></script>
-<script src="testRemoteJS.js"></script>```
+<script src="testRemoteJS.js"></script>
+```
 
 ## in javascript
 ```javascript
 testRemoteJS('script.js', function() {
     expect(1);
     ok(foo, 'foo exists');
-});```
+});
+```
